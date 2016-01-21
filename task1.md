@@ -22,7 +22,7 @@ $ git init
 
 Написать вывод "Hello world" на экран.
 
-```
+```python
 print("Hello world")
 ```
 
@@ -61,6 +61,11 @@ $ git commit -m "Add hello world program"
 
 Тут еще добавлю некоторую общую информацию связаною с заданием.
 
+Вот немного, в Ubuntu git можно установить так:
 
+```
+$ apt-get install git
+```
 
+после чего программа git будет доступна как команда.
 
