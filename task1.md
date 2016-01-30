@@ -43,6 +43,13 @@ $ python hello.py
 Программа должна вывести на экран `Hello World`.
 Если python ругаеться значит можно попробывать выполнить команду `python3` вместо `python`.
 
+Сконфигурировать в git email и username (это делаеться один раз):
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
 Добавить файл в индекс git.
 Зафиксировать изменения (сделать commit) в git.
 
@@ -56,6 +63,7 @@ $ git commit -m "Add hello world program"
 Создать удаленный репозиторий (repository) на GitHub с названием `learn-python`.
 
 Связать локальный репозиторий `learn-python` c удаленным следуя инструкциям на GitHub.
+GitHub предоставит на выбор два типа адресов: HTTPS и SSH. Нужно выбрать HTTPS.
 
 ## Общая информация
 
